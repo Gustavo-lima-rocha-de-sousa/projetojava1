@@ -25,7 +25,18 @@ public class PrimeiraClasseJava {
 		}else {
 			System.out.println("Masculino");
 		}			
-			
+		
+		/*Concatenacao = Unir ou juntar dados*/
+		
+		/*String no java sempre sera texto de qual quer tamanho*/
+		String nome = "Gustavo Lima";
+		String cpf = "065.421.591-00";
+		String telefone = "61 984042809";
+		String endereco = "Santa Maria = DF";
+		int idade = 21;
+		System.out.println("Meu nome é: " + nome + " e meu CPF é : " 
+		+ cpf + " Meu contato é: " + telefone +
+		" e eu moro em: " + endereco + "e minha idade é: " + idade);
 		}
 	}
 	
