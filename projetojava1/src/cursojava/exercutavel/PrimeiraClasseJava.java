@@ -9,6 +9,7 @@ public class PrimeiraClasseJava {
 		System.out.println("Meu primeiro programa em Java- do curso Formação Web");
 		System.out.println("Java é orientado a objetos");
 		
+		/*Notas aprendendo a lidar com números*/
 		int nota1 = 90;
 		int nota2 = 70;
 		int nota3 = 50;
