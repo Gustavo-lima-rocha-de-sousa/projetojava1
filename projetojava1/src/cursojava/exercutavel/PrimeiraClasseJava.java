@@ -37,6 +37,20 @@ public class PrimeiraClasseJava {
 		System.out.println("Meu nome é: " + nome + " e meu CPF é : " 
 		+ cpf + " Meu contato é: " + telefone +
 		" e eu moro em: " + endereco + "e minha idade é: " + idade);
+		
+		/*Operações Lógicas If e Else*/
+		
+		int mediaAluno = 70;
+		
+		if (mediaAluno >= 70) {
+			System.out.println("Parabens vc esta aprovado");
+		}
+		else	
+		if (mediaAluno < 70) {
+			System.out.println("Parabens vc esta reprovado");
+			
+		}
+		
 		}
 	}
 	
