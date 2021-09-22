@@ -48,9 +48,53 @@ public class PrimeiraClasseJava {
 		else	
 		if (mediaAluno < 70) {
 			System.out.println("Parabens vc esta reprovado");
-			
-		}
+
+			/*Condições Logicas com IF e ELSE*/
+					int nota11 = 95;
+					int nota21 = 95;
+					int nota31 = 90;
+					int nota41 = 90;
+					int media = 0;
+
+					media = (nota11 + nota21 + nota31 + nota41) / 4;
+
+			/*Operações Logicas aninha: São operações dentro de operações
+					
+					if(media >= 50) {
+						if(media >= 70) {
+							if(media > 90) {
+							System.out.println("Aluno está aprovado direto - Parabens pela nota: " + media);
+							}else {
+								System.out.println("Aluno está aprovado direto Sua Nota é: " + media);
+							}
+						}else {
+							System.out.println("Aluno está em recuperação sua nota foi: " + media);
+						}
+					}else {
+						System.out.println("Aluno reprovado direto sua nota foi: " + media);
+					}*/	
+				/*SWITCH CASE OPERAÇÕES EXATAS*/	
+					int dia = 1
+						;
+					switch (dia) {
+					case 1:
+						System.out.println("Domingo");
+						break;
+					case 2:
+						System.out.println("Segunda-Feira");
+						break;
+					case 3:
+						System.out.println("Terca-Feira");
+						break;
+					default: System.out.println("Outro Dia");
+						break;
+					}
+				
+					
+				}
+			}
+
+		
 		
 		}
-	}
 	
