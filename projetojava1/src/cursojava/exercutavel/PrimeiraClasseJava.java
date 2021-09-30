@@ -32,11 +32,11 @@ public class PrimeiraClasseJava {
 		String nome = "Gustavo Lima";
 		String cpf = "065.421.591-00";
 		String telefone = "61 984042809";
-		String endereco = "Santa Maria = DF";
+		String endereco = "Santa Maria - DF";
 		int idade = 21;
-		System.out.println("Meu nome é: " + nome + " e meu CPF é : " 
+		System.out.println("Meu nome é: " + nome + " e meu CPF é: " 
 		+ cpf + " Meu contato é: " + telefone +
-		" e eu moro em: " + endereco + "e minha idade é: " + idade);
+		" e eu moro em: " + endereco + " e minha idade é: " + idade);
 		
 		/*Operações Lógicas If e Else*/
 		
@@ -105,7 +105,11 @@ public class PrimeiraClasseJava {
 			System.out.println("O Numero Atual é: " + numero2);
 			numero2++;
 		} while (numero2 <= 60);
-	
+		/* Estrutura de repetição FOR*/
+		
+		for(int numero3 = 0; numero3 <=10; numero3 ++) { 
+			System.out.println("Numero Atual é :" + numero3);
+		}
 	}	
 		
 }
