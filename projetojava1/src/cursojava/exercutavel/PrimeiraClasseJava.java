@@ -88,13 +88,25 @@ public class PrimeiraClasseJava {
 						break;
 					default: System.out.println("Outro Dia");
 						break;
-					}
-				
-					
+						}
 				}
-			}
+			
+			/* Estrutura de repetição While e do While */
 
-		
-		
+		int numero = 0;
+
+		while (numero <= 3) {
+			System.out.println("O Numero Atual é: " + numero);
+			numero++;
 		}
+		/*-----------------------*/
+		int numero2 = 0;
+		do {/*Primerio Executa depois verificar*/
+			System.out.println("O Numero Atual é: " + numero2);
+			numero2++;
+		} while (numero2 <= 60);
+	
+	}	
+		
+}
 	
