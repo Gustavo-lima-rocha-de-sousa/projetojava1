@@ -110,6 +110,15 @@ public class PrimeiraClasseJava {
 		for(int numero3 = 0; numero3 <=10; numero3 ++) { 
 			System.out.println("Numero Atual é :" + numero3);
 		}
+		/* Estrutura de repetição FOR + brak (Parada)*/
+		
+		for(int numero4 = 0; numero4 <=10; numero4 ++) { 
+			if(numero4 == 7 ) {
+				System.out.println("Obaaaa, Encontrei o numero 7");
+				System.out.println("Estou Parande de Executar...");
+				break;
+			}
+		}
 	}	
 		
 }
