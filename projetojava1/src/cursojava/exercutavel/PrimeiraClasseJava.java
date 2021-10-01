@@ -151,17 +151,27 @@ public class PrimeiraClasseJava {
 		System.out.println("Sobraram exatament: " + resto + " Carros no estoque." );*/
 		/* Entrada de dados*/
 		
+		/* Entrada de dados*/
+		
 		String carros = JOptionPane.showInputDialog("Informe a Quantidade de carros?");
-		String pessoas3 = JOptionPane.showInputDialog("Informe a Quantidade de pessoas?");
+		String pessoas = JOptionPane.showInputDialog("Informe a Quantidade de pessoas?");
 		
 		double carrosNumero = Double.parseDouble(carros);
-		double pessoasNumero = Double.parseDouble(pessoas3);
+		double pessoasNumero = Double.parseDouble(pessoas);
 		
 		int divisao = (int) (carrosNumero /pessoasNumero);
 		
-		double rest = carrosNumero % pessoasNumero;
-			JOptionPane.showMessageDialog(null,"Divisão para pessoas deu: " + divisao + " carros e sobrou: " 
-					+ rest + " Carros");
+		double resto = carrosNumero % pessoasNumero;
+		
+		int resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resultado da divisão?");
+			if (resposta ==0) {
+				JOptionPane.showMessageDialog(null,"Divisão para pessoas deu: " + divisao);
+				
+		resposta = JOptionPane.showConfirmDialog(null, "Deseja ver o resto da divisão?");
+		if (resposta == 0) {
+			JOptionPane.showMessageDialog(null, "O resto da divisão é " + resto);
+				}
+			}
 	}	
 		
 }
