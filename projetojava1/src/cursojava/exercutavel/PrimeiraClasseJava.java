@@ -137,7 +137,7 @@ public class PrimeiraClasseJava {
 				
 			}else { ;
 			 System.out.println("Achei todos os números e estou encerrando o processo.");
-			}		 break;
+			} break;
          }	
 		/* Módulo: Resto da Divisão %*/
 		
