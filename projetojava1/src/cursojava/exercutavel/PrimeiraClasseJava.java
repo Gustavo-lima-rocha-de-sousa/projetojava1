@@ -1,34 +1,36 @@
 package cursojava.exercutavel;
 
-public class PrimeiraClasseJava {
+import javax.swing.JOptionPane;
 
-	/*Main é um metodo auto executavel em java*/
+public class PrimeiraClasseJava {
+	public static void main(String[] args) {
+	/*Main é um metodo auto executavel em java
 	public static void main(String[] args) {
 		
-		/*Escreve texto no console*/
+		/*Escreve texto no console
 		System.out.println("Meu primeiro programa em Java- do curso Formação Web");
-		System.out.println("Java é orientado a objetos");
+		System.out.println("Java é orientado a objetos");*/
 		
-		/*Notas aprendendo a lidar com números*/
+		/*Notas aprendendo a lidar com números
 		double nota1 = 90;
 		double nota2 = 70;
 		double nota3 = 50;
 		double nota4 = 88;
 		double mediaFinal = (nota1 + nota2 + nota3 + nota4) /4;
 		
-		System.out.println("Media das notas = " + mediaFinal);
+		System.out.println("Media das notas = " + mediaFinal);*/
 		
-		/*Char representa uma letra*/
+		/*Char representa uma letra
 		char pessoaFeminino = 'F';
 		if(pessoaFeminino == 'F') {
 			System.out.println("Feminino");
 		}else {
 			System.out.println("Masculino");
-		}			
+		}*/			
 		
 		/*Concatenacao = Unir ou juntar dados*/
 		
-		/*String no java sempre sera texto de qual quer tamanho*/
+		/*String no java sempre sera texto de qual quer tamanho
 		String nome = "Gustavo Lima";
 		String cpf = "065.421.591-00";
 		String telefone = "61 984042809";
@@ -36,9 +38,9 @@ public class PrimeiraClasseJava {
 		int idade = 21;
 		System.out.println("Meu nome é: " + nome + " e meu CPF é: " 
 		+ cpf + " Meu contato é: " + telefone +
-		" e eu moro em: " + endereco + " e minha idade é: " + idade);
+		" e eu moro em: " + endereco + " e minha idade é: " + idade);*/
 		
-		/*Operações Lógicas If e Else*/
+		/*Operações Lógicas If e Else
 		
 		int mediaAluno = 70;
 		
@@ -49,16 +51,16 @@ public class PrimeiraClasseJava {
 		if (mediaAluno < 70) {
 			System.out.println("Parabens vc esta reprovado");
 
-			/*Condições Logicas com IF e ELSE*/
+			/*Condições Logicas com IF e ELSE
 					int nota11 = 95;
 					int nota21 = 95;
 					int nota31 = 90;
 					int nota41 = 90;
 					int media = 0;
 
-					media = (nota11 + nota21 + nota31 + nota41) / 4;
+					media = (nota11 + nota21 + nota31 + nota41) / 4;*/
 
-			/*Operações Logicas aninhadas: São operações dentro de operações*/
+			/*Operações Logicas aninhadas: São operações dentro de operações
 					
 					if(media >= 50) {
 						if(media >= 70) {
@@ -72,8 +74,8 @@ public class PrimeiraClasseJava {
 						}
 					}else {
 						System.out.println("Aluno reprovado direto sua nota foi: " + media);
-					}
-				/*SWITCH CASE OPERAÇÕES EXATAS*/	
+					}*/
+				/*SWITCH CASE OPERAÇÕES EXATAS	
 					int dia = 1
 						;
 					switch (dia) {
@@ -89,9 +91,9 @@ public class PrimeiraClasseJava {
 					default: System.out.println("Outro Dia");
 						break;
 						}
-				}
+				}*/
 			
-			/* Estrutura de repetição While e do While */
+			/* Estrutura de repetição While e do While 
 
 		int numero = 0;
 
@@ -99,18 +101,18 @@ public class PrimeiraClasseJava {
 			System.out.println("O Numero Atual é: " + numero);
 			numero++;
 		}
-		/*-----------------------*/
-		int numero2 = 0;
-		do {/*Primerio Executa depois verificar*/
+		-----------------------*/
+		/*int numero2 = 0;
+		do {/*Primerio Executa depois verificar
 			System.out.println("O Numero Atual é: " + numero2);
 			numero2++;
-		} while (numero2 <= 60);
-		/* Estrutura de repetição FOR*/
+		} while (numero2 <= 60);*/
+		/* Estrutura de repetição FOR
 		
 		for(int numero3 = 0; numero3 <=10; numero3 ++) { 
 			System.out.println("Numero Atual é :" + numero3);
-		}
-		/* Estrutura de repetição FOR + brak (Parada)*/
+		}*/
+		/* Estrutura de repetição FOR + brak (Parada)
 		
 		for(int numero4 = 0; numero4 <=10; numero4 ++) { 
 			if(numero4 == 7 ) {
@@ -118,17 +120,17 @@ public class PrimeiraClasseJava {
 				System.out.println("Estou Parando de Executar...");
 				break;
 			}
-		}
-		/* Estrutura de repetição FOR + Continue*/
+		}*/
+		/* Estrutura de repetição FOR + Continue
 		
 		for(int numero5 = 0; numero5 <=10; numero5 ++) { 
 			if(numero5 == 3 || numero5 == 6 || numero5 == 9 ) {
 				System.out.println("Obaaaa, Encontrei o numero: " + numero5);
 				continue;
 			}
-		}
+		}*/
 		
-		/* Estrutura de repetição FOR + Continue*/
+		/* Estrutura de repetição FOR + Continue
 		
 		for(int numero6 = 0; numero6 <=10; numero6 ++) { 
 			if(numero6 == 3 || numero6 == 6 || numero6 == 9 ) {
@@ -138,15 +140,28 @@ public class PrimeiraClasseJava {
 			}else { ;
 			 System.out.println("Achei todos os números e estou encerrando o processo.");
 			} break;
-         }	
-		/* Módulo: Resto da Divisão %*/
+         }*/	
+		/* Módulo: Resto da Divisão %
 		
 		double carro = 9;
 		double pessoas = 2;
 		
 		double resto = carro % pessoas;
 		
-		System.out.println("Sobraram exatament: " + resto + " Carros no estoque." );	
+		System.out.println("Sobraram exatament: " + resto + " Carros no estoque." );*/
+		/* Entrada de dados*/
+		
+		String carros = JOptionPane.showInputDialog("Informe a Quantidade de carros?");
+		String pessoas3 = JOptionPane.showInputDialog("Informe a Quantidade de pessoas?");
+		
+		double carrosNumero = Double.parseDouble(carros);
+		double pessoasNumero = Double.parseDouble(pessoas3);
+		
+		int divisao = (int) (carrosNumero /pessoasNumero);
+		
+		double rest = carrosNumero % pessoasNumero;
+			JOptionPane.showMessageDialog(null,"Divisão para pessoas deu: " + divisao + " carros e sobrou: " 
+					+ rest + " Carros");
 	}	
 		
 }
