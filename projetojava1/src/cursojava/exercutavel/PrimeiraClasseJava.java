@@ -58,7 +58,7 @@ public class PrimeiraClasseJava {
 
 					media = (nota11 + nota21 + nota31 + nota41) / 4;
 
-			/*Operações Logicas aninha: São operações dentro de operações
+			/*Operações Logicas aninhadas: São operações dentro de operações*/
 					
 					if(media >= 50) {
 						if(media >= 70) {
@@ -72,7 +72,7 @@ public class PrimeiraClasseJava {
 						}
 					}else {
 						System.out.println("Aluno reprovado direto sua nota foi: " + media);
-					}*/	
+					}
 				/*SWITCH CASE OPERAÇÕES EXATAS*/	
 					int dia = 1
 						;
@@ -115,9 +115,29 @@ public class PrimeiraClasseJava {
 		for(int numero4 = 0; numero4 <=10; numero4 ++) { 
 			if(numero4 == 7 ) {
 				System.out.println("Obaaaa, Encontrei o numero 7");
-				System.out.println("Estou Parande de Executar...");
+				System.out.println("Estou Parando de Executar...");
 				break;
 			}
+		}
+		/* Estrutura de repetição FOR + Continue*/
+		
+		for(int numero5 = 0; numero5 <=10; numero5 ++) { 
+			if(numero5 == 3 || numero5 == 6 || numero5 == 9 ) {
+				System.out.println("Obaaaa, Encontrei o numero: " + numero5);
+				continue;
+			}
+		}
+		
+		/* Estrutura de repetição FOR + Continue*/
+		
+		for(int numero6 = 0; numero6 <=10; numero6 ++) { 
+			if(numero6 == 3 || numero6 == 6 || numero6 == 9 ) {
+				System.out.println("Obaaaa, Encontrei o numero: " + numero6);
+				continue; 
+				
+			}else { ;
+			} System.out.println("Achei todos os números e estou encerrando o processo.");
+			break;
 		}
 	}	
 		
