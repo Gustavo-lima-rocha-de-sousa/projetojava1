@@ -136,9 +136,17 @@ public class PrimeiraClasseJava {
 				continue; 
 				
 			}else { ;
-			} System.out.println("Achei todos os números e estou encerrando o processo.");
-			break;
-		}
+			 System.out.println("Achei todos os números e estou encerrando o processo.");
+			}		 break;
+         }	
+		/* Módulo: Resto da Divisão %*/
+		
+		double carro = 9;
+		double pessoas = 2;
+		
+		double resto = carro % pessoas;
+		
+		System.out.println("Sobraram exatament: " + resto + " Carros no estoque." );	
 	}	
 		
 }
